@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FiveMarket</title>
+    <style>
+        body {
+            background-image: url('https://cdn.discordapp.com/attachments/1159843738634436748/1167174647008215192/ssas.gif?ex=654d2b18&is=653ab618&hm=5d5ee5c3b22dda23d5755935c94e7278d889c975aa772d732f12c36d246ea512');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1, .rainbow-text {
+            font-size: 48px;
+            background-image: linear-gradient(45deg, #f06, #ff0, #0f6, #06f, #f06);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbowText 8s linear infinite;
+        }
+
+        @keyframes rainbowText {
+            0% {
+                background-position: 0 100%;
+            }
+            100% {
+                background-position: 400% 100%;
+            }
+        }
+
+        .box {
+            background-color: black;
+            border-radius: 50px;
+            padding: 20px;
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .discord-logo {
+            width: 50px;
+            vertical-align: middle; /* Adjusted to align the Discord logo 1 pixel higher */
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="rainbow-text">FiveMarket</h1>
+    <div class="box">
+        <a href="https://discord.gg/ksu6qy9Utu" target="_blank">Discord</a>
+    </div>
+    <div class="footer">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/930/718/original/discord-logo-discord-icon-transparent-free-png.png" class="discord-logo" style="vertical-align: middle; margin-top: -1px;"> <span class="rainbow-text">pck.</span>
+        <img src="https://static.vecteezy.com/system/resources/previews/018/930/718/original/discord-logo-discord-icon-transparent-free-png.png" class="discord-logo" style="vertical-align: middle; margin-top: -1px;"> <span class="rainbow-text">skullyy.nl</span>
+    </div>
+</body>
+</html>
